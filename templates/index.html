@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Thyroid Disease Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@400;500;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Popins", sans-serif;
+        }
+
+        .container {
+            background-image: url("thyroid.jpg");
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-bottom: 2rem;
+        }
+
+        .gradient__text {
+            background: linear-gradient(89.97deg, #AE67FA 40.84%, #d70b56 67.67%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .header {
+            padding: 2rem;
+            font-size: 30px;
+        }
+
+        .content {
+            font-size: 20px;
+            color: rgb(193, 122, 235);
+            text-align: center;
+        }
+
+        .form-container {
+            padding: 3rem;
+            margin: 4rem;
+            background-color: rgb(4, 34, 60);
+            border-radius: 4rem;
+            box-shadow: rgba(255, 255, 255, 0.7) px 3px 8px;
+            opacity: 0.9;
+        }
+
+        .form-container p {
+            color: #AE67FA;
+            font-size: 30px;
+        }
+
+
+        .input-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        label {
+            font-size: large;
+            color: white;
+        }
+
+        input {
+            outline: none;
+            border: none;
+            border-radius: 3px;
+        }
+        .btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btn1,.btn2 {
+            background: #AE67FA;
+            margin: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container gradient__bg">
+        <center>
+            <div class="header ">
+                <h1 class="gradient__text"> Thyroid Disease Prediction</h1>
+            </div>
+
+            <div class="content">
+                <h2>This web application is made to predict Thyroid disease with the following parameters given</h2>
+            </div>
+
+            <div class="form-container">
+                <p>Fill the form and get your results</p> <br>
+
+                <form method='POST' , action="/prediction">
+                    <div class="input-container">
+                        <div class="left">
+
+                            <div class="i1">
+                                <label for="TSH">TSH value:</label>
+                                <input style="font-size: 15; padding:5px 15px; margin:15px 0px 0px 50px;" type="number"
+                                    name="TSH" placeholder="enter" step="any"> <br><br>
+                            </div>
+
+                            <div class="i2">
+                                <label for="FTI">FTI value:</label>
+                                <input style="font-size: 15; padding:5px 15px; margin:15px 0px 0px 58px;" type="number"
+                                    name="FTI" placeholder="enter" step="any"> <br><br>
+                            </div>
+
+                            <div class="i3">
+                                <label for="TT4">TT4 value:</label>
+                                <input style="font-size: 15; padding:5px 15px; margin:15px 0px 0px 50px;" type="number"
+                                    name="TT4" placeholder="enter" step="any"> <br><br>
+                            </div>
+
+                            <div class="i4">
+                                <label for="T3">T3 value:</label>
+                                <input style="font-size: 15; padding:5px 15px; margin:15px 0px 0px 58px;" type="number"
+                                    name="T3" placeholder="enter" step="any"> <br><br>
+                            </div>
+
+                            <div class="i5">
+                                <label for="query_hypothyroid">Query_hypothyroid value :</label>
+                                <select id="query_hypothyroid" name="query_hypothyroid"
+                                    style="padding:5px 15px;margin: 15px 0px 15px 50px;">
+                                    <option value="text">Select</option>
+                                    <option value="1">True</option>
+                                    <option value="0">False</option>
+                                </select>
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <div class="i6">
+                                <label for="on_thyroxine">On_thyroxine value :</label>
+                                <select id="on_thyroxine" name="on_thyroxine"
+                                    style="padding: 5px 15px;margin: 15px 25px 15px 5px;">
+                                    <option value="text">Select</option>
+                                    <option value="1">True</option>
+                                    <option value="0">False</option>
+                                </select>
+                            </div>
+
+                            <div class="i7">
+                                <label for="sex">Sex :</label>
+                                <select id="sex" name="sex" style="padding:5px 12px;margin: 15px 20px 15px 125px;">
+                                    <option value="text">Select</option>
+                                    <option value="1">Male</option>
+                                    <option value="0">Female</option>
+                                </select>
+                            </div>
+
+                            <div class="i8">
+                                <label for="pregnant">Pregnant :</label>
+                                <select id="pregnant" name="pregnant"
+                                    style="padding: 5px 15px;margin: 15px 20px 15px 85px;">
+                                    <option value="text">Select</option>
+                                    <option value="1">YES</option>
+                                    <option value="0">NO</option>
+                                </select>
+                            </div>
+
+                            <div class="i9">
+                                <label for="psych">Psych :</label>
+                                <select id="psych" name="psych" style="padding: 5px 15px;margin: 15px 15px 15px 110px;">
+                                    <option value="text">Select</option>
+                                    <option value="1">True</option>
+                                    <option value="0">False</option>
+                                </select> <br><br><br>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                    <div class="btn">
+
+                        <input class="btn1" type="submit" , value='Predict' style="font-size: larger; padding: 5px 15px;margin-top: 15px;"> <br><br></br>
+                        <input class="btn2" type="reset" , value='Reset' style="padding: 5px 15px;margin-top: 15px;">
+                    </div>
+                </form>
+            </div>
+
+        </center>
+    </div>
+</body>
+
+</body>
+
+</html>
