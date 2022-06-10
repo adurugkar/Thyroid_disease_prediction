@@ -1,4 +1,5 @@
-﻿alabaster @ file:///home/ktietz/src/ci/alabaster_1611921544520/work
+gunicorn==20.1.0
+alabaster @ file:///home/ktietz/src/ci/alabaster_1611921544520/work
 anaconda-client @ file:///C:/ci/anaconda-client_1635342725944/work
 anaconda-navigator==2.1.1
 anaconda-project @ file:///tmp/build/80754af9/anaconda-project_1626085644852/work
@@ -221,7 +222,6 @@ qstylizer @ file:///tmp/build/80754af9/qstylizer_1617713584600/work/dist/qstyliz
 QtAwesome @ file:///tmp/build/80754af9/qtawesome_1615991616277/work
 qtconsole @ file:///tmp/build/80754af9/qtconsole_1632739723211/work
 QtPy @ file:///tmp/build/80754af9/qtpy_1629397026935/work
-gunicorn==20.1.0
 regex @ file:///C:/ci/regex_1628063427816/work
 requests @ file:///tmp/build/80754af9/requests_1629994808627/work
 rope @ file:///tmp/build/80754af9/rope_1623703006312/work
