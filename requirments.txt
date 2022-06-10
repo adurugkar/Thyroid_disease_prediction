@@ -77,7 +77,6 @@ future @ file:///C:/ci/future_1607568713721/work
 gevent @ file:///C:/ci/gevent_1628273776273/work
 glob2 @ file:///home/linux1/recipes/ci/glob2_1610991677669/work
 greenlet @ file:///C:/ci/greenlet_1628888275363/work
-gunicorn==20.1.0
 h5py @ file:///C:/ci/h5py_1622088609188/work
 HeapDict @ file:///Users/ktietz/demo/mc3/conda-bld/heapdict_1630598515714/work
 html5lib @ file:///Users/ktietz/demo/mc3/conda-bld/html5lib_1629144453894/work
@@ -222,6 +221,7 @@ qstylizer @ file:///tmp/build/80754af9/qstylizer_1617713584600/work/dist/qstyliz
 QtAwesome @ file:///tmp/build/80754af9/qtawesome_1615991616277/work
 qtconsole @ file:///tmp/build/80754af9/qtconsole_1632739723211/work
 QtPy @ file:///tmp/build/80754af9/qtpy_1629397026935/work
+gunicorn==20.1.0
 regex @ file:///C:/ci/regex_1628063427816/work
 requests @ file:///tmp/build/80754af9/requests_1629994808627/work
 rope @ file:///tmp/build/80754af9/rope_1623703006312/work
