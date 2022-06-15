@@ -1,0 +1,11 @@
+2022-06-15/21:51:06		all ? replaced by the np.nan value
+2022-06-15/21:51:06		All data convert into labes
+2022-06-15/21:51:06		all np.nan value filled using KNNimputer
+2022-06-15/21:51:07		now data is balanced
+2022-06-15/21:51:07		balance train file save with name "balance_x_train","balance_y_train"
+2022-06-15/21:53:35		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2022-06-15/21:53:51		Random Forest best params: {'criterion': 'entropy', 'max_depth': 3, 'max_features': 'log2', 'n_estimators': 100}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2022-06-15/21:53:51		Entered the get_best_model method of the Model_Finder class
+2022-06-15/21:53:51		Entered the get_best_params_for_Ensembled_KNN method of the Model_Finder class
+2022-06-15/21:54:57		KNN best params: {'algorithm': 'ball_tree', 'leaf_size': 10, 'n_neighbors': 4, 'p': 2}. Exited the KNN method of the Model_Finder class
+2022-06-15/21:54:57		Accuracy for knn:0.8572463768115942
