@@ -1,5 +1,0 @@
-2022-06-10/00:06:27		all ? replaced by the np.nan value
-2022-06-10/00:06:27		All data convert into labes
-2022-06-10/00:06:28		all np.nan value filled using KNNimputer
-2022-06-10/00:06:28		now data is balanced
-2022-06-10/00:06:28		balance train file save with name "balance_x_train","balance_y_train"
