@@ -28,4 +28,4 @@ def prediction():
     return render_template('after.html',data=prediction)
 
 if __name__ == "__main__":
-    app.run(debug=True  )
+    app.run()
