@@ -8,6 +8,7 @@ appdirs                            1.4.4
 argh                               0.26.2
 argon2-cffi                        20.1.0
 arrow                              0.13.1
+gunicorn                           20.1.0
 asn1crypto                         1.4.0
 astroid                            2.6.6
 astropy                            4.3.1
@@ -78,7 +79,6 @@ future                             0.18.2
 gevent                             21.8.0
 glob2                              0.7
 greenlet                           1.1.1
-gunicorn                           20.1.0
 h5py                               3.2.1
 HeapDict                           1.0.1
 html5lib                           1.1
