@@ -81,7 +81,7 @@ Thyroid disease detection Web App:
 
 ![result 2](https://user-images.githubusercontent.com/92989888/174315699-403425a0-1bb4-49dc-8e5d-92435a230d05.png)
 
-## Project Documents
+# Project Documents
 
 ### High Level Design
 URL: https://github.com/adurugkar/Thyroid_disease_prediction/blob/main/docs/HDD.pdf
