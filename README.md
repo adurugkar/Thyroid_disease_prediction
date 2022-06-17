@@ -71,4 +71,15 @@ Thyroid disease detection Web App:
 
 # Screenshorts
 
-![4](https://user-images.githubusercontent.com/92989888/174315161-8a0c309c-4e7f-42f1-8643-8fbc7aade39f.png)
+### UI:
+![UI](https://user-images.githubusercontent.com/92989888/174315351-8e72f457-9bb0-4bc4-a054-1cc3f94e39ab.png)
+
+### Prediction:
+![Prediction](https://user-images.githubusercontent.com/92989888/174315520-f191bca9-2973-4276-8733-99481c8e4c21.png)
+
+![result 1](https://user-images.githubusercontent.com/92989888/174315677-48204430-4fa5-404a-ba7f-79695a762550.png)
+
+![result 2](https://user-images.githubusercontent.com/92989888/174315699-403425a0-1bb4-49dc-8e5d-92435a230d05.png)
+
+
+
