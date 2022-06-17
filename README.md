@@ -39,6 +39,7 @@ A Thyroid database suited for training
  - 3772 training instances
 
 URL: https://archive.ics.uci.edu/ml/datasets/thyroid+disease
+Heroku Deployed Link: https://thyroidpredict.herokuapp.com/
 
 # Approach
 
