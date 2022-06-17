@@ -68,3 +68,7 @@ Export Prediction to CSV: Finally when we get all the prediction for client data
 Thyroid disease detection Web App:
 
 (Using Flask) : https://thyroidpredict.herokuapp.com/
+
+# Screenshorts
+
+![4](https://user-images.githubusercontent.com/92989888/174315161-8a0c309c-4e7f-42f1-8643-8fbc7aade39f.png)
