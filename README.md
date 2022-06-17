@@ -64,3 +64,7 @@ Data processing: Client data will also go along the same process Data pre-proces
 
 Export Prediction to CSV: Finally when we get all the prediction for client data, then our final task is to export prediction to csv file and hand over it to client.
 
+## Web Deployment
+Thyroid disease detection Web App:
+
+(Using Flask) : https://thyroidpredict.herokuapp.com/
